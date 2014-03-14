@@ -1,0 +1,379 @@
+@charset "UTF-8";
+/* WordPress PetRescue Plugin CSS File */
+
+.pet_listing {
+position: relative;
+border: 1px solid #e9ebe0;
+border-top: 0;
+margin-top: -20px;
+background-color:#fff;
+}
+.pet_listing li{
+  border-bottom:1px solid #e9ebe0;
+  padding: 27px 20px 20px 20px;
+  margin:0 0 0 0 !important;
+  overflow:hidden;
+  list-style-type: none !important;
+}
+.pet_listing li:last-child{
+  border-bottom:0px solid #e9ebe0;
+}
+.pet_listing li .photo{
+  float:left;
+  margin:0 20px 0 0;
+  width:130px;
+  height:130px;
+  border:1px solid #7a7963;
+}
+.listing_right_side{
+  float:right;
+width:100%;
+  max-width:736px;
+}
+.listing_right_side h4.name{
+  margin:0;
+  padding:0 0 10px 0;
+  font-size: 18px;
+  line-heght:22px;
+  color:#7fb010;
+  background-color:inherit;
+}
+.listing_right_side h4.name a{
+  color:#7fb010;
+  background-color:inherit;
+text-decoration:none;
+}
+.listing_right_side h4.name a:hover{
+  color:#000;
+  background-color:inherit;
+text-decoration:none;
+}
+.listing_right_side .personality{
+  color:#7f7e7e;
+  background-color:inherit;
+padding-bottom: 38px;
+font-size: 12px;
+line-height: 18px;
+}
+.action_section dl.info-line {
+display: inline-block;
+font-size: 12px;
+line-height:21px;
+border: 1px solid #f6f6f3;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+background: #fdfdfc;
+color:#7f7e7e;
+}
+.action_section dl.info-line dt.female{
+background-image: url(//www.petrescue.com.au/assets/icons/gender/female-7d062e8cec55fe7ce5ba8163317e353f.svg);
+}
+.pet_listing li.cat-listing dt.breed {
+background-image: url(//www.petrescue.com.au/assets/icons/cat-717e415c2e326f1d040aead54c24bc6d.svg);
+}
+.action_section dl.info-line dt.female, .action_section dl.info-line dt.male {
+overflow: hidden;
+text-indent: -9999px;
+width: 28px;
+padding-left: 0;
+padding-right: 0;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+-webkit-background-size: 14px 14px;
+-moz-background-size: 14px 14px;
+-o-background-size: 14px 14px;
+background-size: 14px 14px;
+}
+
+.action_section dd.gender.female{
+  color: #ce659e;
+}
+.action_section dl.info-line dt.male, .action_section dl.info-line dt.male {
+background-image: url(//www.petrescue.com.au/assets/icons/gender/male-8c95212bc65a3f09804d6fd325acb374.svg);
+
+}
+.action_section dd.gender.male{
+color:#658ACE;
+}
+.action_section li.dogs-listing dt.breed{
+background-image: url(//www.petrescue.com.au/assets/icons/dog-0aa347b0dde566e51fefeee4f692513c.svg);
+}
+.action_section dl.info-line dt.female, .action_section dl.info-line dt.male, .action_section dl.info-line dt.breed, .action_section dl.info-line dt.female, .action_section dl.info-line dt.male, .action_section dl.info-line dt.breed {
+overflow: hidden;
+text-indent: -9999px;
+width: 28px;
+padding-left: 0;
+padding-right: 0;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+-webkit-background-size: 14px 14px;
+-moz-background-size: 14px 14px;
+-o-background-size: 14px 14px;
+background-size: 14px 14px;
+}
+.action_section dl.info-line dt, .action_section dl.info-line dd, .action_section dl.info-line dt, .action_section dl.info-line dd, .action_section dl.info-line dt, .action_section dl.info-line dd, .action_section dl.info-line dt, .action_section dl.info-line dd, .action_section dl.info-line dt, .action_section dl.info-line dd {
+    display: inline-block;
+    padding: 0 8px;
+float:left;
+margin:0;
+line-height:21px;
+}
+.pet_listing li.dogs-listing dt.breed, .pet_listing li.dog-listing dt.breed {
+    background-image: url(//www.petrescue.com.au/assets/icons/dog-0aa347b0dde566e51fefeee4f692513c.svg);
+}
+.pet_listing li.cat-listing dt.breed {
+background-image: url(//www.petrescue.com.au/assets/icons/cat-717e415c2e326f1d040aead54c24bc6d.svg);
+}
+.action_section .breed{
+  width:auto;
+}
+.action_section .actions{
+   float:right;
+}
+.pet_listing li.listing .actions #find_out_more a, .pet_listing li.listing .actions #find_out_more a {
+display: inline-block;
+font-weight: bold;
+line-height: 1.8em;
+letter-spacing: 0.05em;
+border-bottom: 0;
+vertical-align: text-bottom;
+white-space: nowrap;
+position: relative;
+top: 2px;
+line-height: 22px;
+height: 24px;
+font-size: 80%;
+padding: 1px 8px 0;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-webkit-font-smoothing: inherit;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+color: #90c712;
+background-color: #a4e315;
+background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a4e315), color-stop(100%, #89be11));
+background-image: -webkit-linear-gradient(#a4e315,#89be11);
+background-image: -moz-linear-gradient(#a4e315,#89be11);
+background-image: -o-linear-gradient(#a4e315,#89be11);
+background-image: linear-gradient(#a4e315,#89be11);
+-webkit-box-shadow: rgba(242,252,220,0.2) 0 1px 0 inset;
+-moz-box-shadow: rgba(242,252,220,0.2) 0 1px 0 inset;
+box-shadow: rgba(242,252,220,0.2) 0 1px 0 inset;
+border: 1px solid #90c712 !important;
+-webkit-transition-property: all;
+-moz-transition-property: all;
+-o-transition-property: all;
+transition-property: all;
+-webkit-transition-duration: 0.1s;
+-moz-transition-duration: 0.1s;
+-o-transition-duration: 0.1s;
+transition-duration: 0.1s;
+color: #fff;
+text-shadow: rgba(9,12,1,0.2) 0 1px 1px;
+}
+.pet_listing li.listing .actions #find_out_more a:hover, .pet_listing li.listing .actions #find_out_more a:focus,  .pet_listing li.listing .actions #find_out_more a:hover, .pet_listing li.listing .actions #find_out_more a:focus {
+background-color: #aaea18;
+background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aaea18), color-stop(100%, #89be11));
+background-image: -webkit-linear-gradient(#aaea18,#89be11);
+background-image: -moz-linear-gradient(#aaea18,#89be11);
+background-image: -o-linear-gradient(#aaea18,#89be11);
+background-image: linear-gradient(#aaea18,#89be11);
+text-decoration:none;
+}
+.pet_listing li.listing .actions #find_out_more a:active, .pet_listing li.listing .actions #find_out_more a:active {
+    background-color: #90C712;
+    background-image: linear-gradient(#90C712, #97D013);
+}
+.pet_listing li.other-listing dt.breed {
+background-image: url(//www.petrescue.com.au/assets/icons/other-2dfdf3db100b914a56f0502cc77279f9.svg);
+}
+.action_section{
+  width: 100%;
+max-width: 736px;
+float: right;
+}
+.page-template-default .listing_right_side, .page-template-page-pets-php .listing_right_side{
+  width:73%;
+}
+.page-template-default .listing_right_side .personality, .page-template-page-pets-php .listing_right_side .personality{
+  padding-bottom:0;
+}
+.page-template-default .action_section, .page-template-page-pets-php .action_section{
+  padding-top:20px;
+}
+/*  details view css start */
+.pet_details .species{
+  font-size: 18px;
+  line-height: 1.6em;
+  color: #90c712;
+  margin: 0;
+  padding:0 0 18px 0;
+}
+.pet_details .located_in{
+  color: #7a7963;
+  line-height: 18px;
+  font-size: 14px;
+  margin: 0;
+  padding:0 0 8px 0;
+font-weight:normal;
+}
+.pet_details .personality, .pet_details .adoption_process{
+  background-color: inherit;
+      color: #7F7E7E;
+      font-size: 12px;
+     line-height: 18px;
+     padding-bottom: 38px;
+}
+.pet_details h3{
+  color: #658ace;
+line-height: 1.4em;
+font-size: 16px;
+margin: 0;
+padding: 0 0 9px 0;
+}
+
+
+
+
+.pet_details .pets-details {
+border: 1px solid #e9ebe0;
+background-color: #fbfbf9;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+margin: 0 0 10px;
+overflow: hidden;
+font-size: 12px;
+}
+
+.pet_details .pets-details dt{
+width: 167px;
+border-right: 1px solid #e9ebe0;
+font-weight: bold;
+}
+.pet_details .pets-details dt.first {
+border-top: 0;
+}
+.pet_details .pets-details dd{
+border-left: 1px solid #e9ebe0;
+margin-left: -1px;
+}
+.pet_details .pets-details dd a{
+   color:#7fb010;
+  background-color:inherit;
+  text-decoration:none;
+}
+.pet_details .pets-details dd a:hover{
+   color:#000;
+  background-color:inherit;
+}
+.pet_details .pets-details dd.first {
+border-top: 0;
+}
+.pet_details .pets-details dt, .pet_details .pets-details dd {
+margin: 0;
+padding: 8px 10px;
+width: 168px;
+float: left;
+border-top: 1px solid #e9ebe0;
+}
+.pet_details .pets-details dd{
+  width:67.3%;
+border-left: 1px solid #e9ebe0;
+margin-left: -1px;
+}
+.pet_details .pets-details dt{
+  width:25%;
+}
+.pet_details #primary {
+-webkit-box-shadow: rgba(198,199,184,0.25) 0 1px 1px;
+-moz-box-shadow: rgba(198,199,184,0.25) 0 1px 1px;
+box-shadow: rgba(198,199,184,0.25) 0 1px 1px;
+border: 1px solid #e9ebe0;
+background-color: #fff;
+float:left;
+width:57%;
+padding:10px;
+
+}
+.pet_details #secondary{
+   float:right;
+-webkit-box-shadow: rgba(198,199,184,0.25) 0 1px 1px;
+-moz-box-shadow: rgba(198,199,184,0.25) 0 1px 1px;
+box-shadow: rgba(198,199,184,0.25) 0 1px 1px;
+border: 1px solid #e9ebe0;
+background-color: #fff;
+padding:10px;
+}
+.pet_details #secondary #thumbnails{
+  padding:22px 0 0 0;
+  margin:0;
+overflow:hidden;
+}
+.pet_details #secondary #thumbnails li{
+  padding:0 8px 0 0;
+  margin:0;
+float:left;
+list-style-type:none;
+}
+.pet_details #secondary #thumbnails li a{
+  display:block;
+  border:1px solid #7a7963;
+  display:block;
+  fonr-size:0;
+  line-height:0;
+}
+.pet_details #secondary #thumbnails li:last-child{
+  padding:0;
+}
+div.footer-pagination
+{
+border: 2px solid grey;
+border-radius: 10px 10px 10px 10px;
+}
+.pages span.active
+{
+font-size: 18px;
+font-weight: bold;
+}
+div#secondary
+{
+width:38% !important;
+}
+/* Start PR CSS */
+#main span.boolean-image-yes,#main span.boolean-image-true,#main span.boolean-image-no,#main span.boolean-image-false,#sidebar span.boolean-image-yes,#sidebar span.boolean-image-true,#sidebar span.boolean-image-no,#sidebar span.boolean-image-false,.fancybox-inner span.boolean-image-yes,.fancybox-inner span.boolean-image-true,.fancybox-inner span.boolean-image-no,.fancybox-inner span.boolean-image-false,body.listings-feed_show span.boolean-image-yes,body.listings-feed_show span.boolean-image-true,body.listings-feed_show span.boolean-image-no,body.listings-feed_show span.boolean-image-false,body.feed-_feed span.boolean-image-yes,body.feed-_feed span.boolean-image-true,body.feed-_feed span.boolean-image-no,body.feed-_feed span.boolean-image-false
+{
+  background-repeat:no-repeat;
+  background-position:left center;
+  display:inline-block;
+  vertical-align:middle;
+  padding-left:20px
+  }
+
+#main span.boolean-image-yes,#main span.boolean-image-true,#sidebar span.boolean-image-yes,#sidebar span.boolean-image-true,.fancybox-inner span.boolean-image-yes,.fancybox-inner span.boolean-image-true,body.listings-feed_show span.boolean-image-yes,body.listings-feed_show span.boolean-image-true,body.feed-_feed span.boolean-image-yes,body.feed-_feed span.boolean-image-true
+{
+  background-image:url(//www.petrescue.com.au/assets/icons/yes-4c29cfb75bba87d6137a732537253a75.png);
+  color:#90c712;
+  width:14px
+  }
+#main span.boolean-image-no,#main span.boolean-image-false,#sidebar span.boolean-image-no,#sidebar span.boolean-image-false,.fancybox-inner span.boolean-image-no,.fancybox-inner span.boolean-image-false,body.listings-feed_show span.boolean-image-no,body.listings-feed_show span.boolean-image-false,body.feed-_feed span.boolean-image-no,body.feed-_feed span.boolean-image-false
+{
+  background-image:url(//www.petrescue.com.au/assets/icons/no-30ad92044b37f2fae33b75da975da508.png);
+  width:13px
+  }
+#main span.boolean-image-unsure,#sidebar span.boolean-image-unsure,.fancybox-inner span.boolean-image-unsure,body.listings-feed_show span.boolean-image-unsure,body.feed-_feed span.boolean-image-unsure{padding-left:0}#main div.listings-count,#sidebar div.listings-count,.fancybox-inner div.listings-count,body.listings-feed_show div.listings-count,body.feed-_feed div.listings-count
+{
+  height:28px;
+  line-height:28px;
+  border:1px solid rgba(233,235,224,0.75);
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  background:rgba(233,235,224,0.15);
+  font-size:11px;
+  font-weight:bold;
+  margin-bottom:10px
+  }
